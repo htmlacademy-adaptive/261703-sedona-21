@@ -11,7 +11,9 @@
   </a>
   <nav class="main-nav">
     <div class="main-nav__wrapper">
-      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</button>
+      <button class="main-nav__toggle" type="button">
+        <!--Здесь будет SVG иконка-->
+      </button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item">
           <a href="home.html">Главная</a>
@@ -29,6 +31,7 @@
     </div>
   </nav>
 </header>
+  
 <main class="page-main">
   <img src="img/welcome.png" width="282" height="214" alt="Welcome">
   <section class="description">
@@ -40,11 +43,11 @@
 
   <section class="advantages">
     <div class="advantages__wrapper">
-      <div class="advantages__item advantages-item advantages-item--blue">
+      <article class="advantages__item advantages-item advantages-item--blue">
         <h3 class="advantages-item__title">НАСТОЯЩИЙ ГОРОДОК</h3>
         <span class="advantages-item__number">№1</span>
         <p class="advantages-item__text">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-      </div>
+      </article>
       <img src="img/city.jpg" width="520" height="260" alt="Домик с садом">
     </div>
 
@@ -92,7 +95,6 @@
         <span class="advantages-item__number">№5</span>
         <p class="advantages-item__text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
       </article>
-
     </div>
   </section>
 
@@ -104,41 +106,39 @@
           и мы ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
       </div>
       <div class="interest__button">
-        <a class="btn-search" href="№">Поиск гостиницы в Седоне</a>
+        <a class="btn-search" href="#">Поиск гостиницы в Седоне</a>
       </div>
     </div>
 
     <iframe class="interest__map-iframe"></iframe> <!--Потом вставлю код-->
-    <img class="interest__map-image" src="https://via.placeholder.com/150x150" width="150" height="150"
-         alt="Седона. Аризона">
+    <img class="interest__map-image" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Седона. Аризона">
   </section>
 </main>
 
-<footer class="page-footer">
-  <div class="page-footer__wrapper">
-    <div class="page-footer__contacts">
-      <a class="page-footer__link" href="https://htmlacademy.ru">#VISITSEDONA</a>
+<footer class="footer">
+  <div class="footer__wrapper">
+    <div class="footer__contacts">
+      <a class="footer__link" href="https://htmlacademy.ru">#VISITSEDONA</a>
     </div>
-    <div class="page-footer__social social">
-      <ul class="social__list">
-        <li class="social__item social-item">
-          <a href="#" class="social-item__link social-item__link--twitter"></a>
-        </li>
-        <li class="social__item social-item">
-          <a href="#" class="social-item__link social-item__link--facebook"></a>
-        </li>
-        <li class="social__item social-item">
-          <a href="#" class="social-item__link social-item__link--youtube"></a>
-        </li>
-      </ul>
-    </div>
-    <div class="page-footer__copyright copyright">
+
+    <ul class="social footer__social">
+      <li class="social__item">
+        <a href="#" class="social__link"></a>
+      </li>
+      <li class="social__item">
+        <a href="#" class="social__link"></a>
+      </li>
+      <li class="social__item">
+        <a href="#" class="social__link"></a>
+      </li>
+    </ul>
+
+    <div class="footer__copyright">
       <span class="copyright__text">Разработано</span>
       <a class="copyright__link" href="https://htmlacademy.ru/study">
-        <img src="img/footer-logo.png" alt="htmlacademy" width="27" height="34" alt="Логотип-футер">
+        <img src="img/footer-logo.png" alt="htmlacademy" width="27" height="34">
       </a>
     </div>
-  </div>
-</footer>
+  </footer>
 </body>
 </html>

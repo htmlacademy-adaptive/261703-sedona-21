@@ -1,7 +1,9 @@
+@import "variables.scss";
+
 body {
   min-width: 320px;
-  margin: 0px;
-  padding 0px;
+  margin: 0;
+  padding: 0;
   font-family: "PT Sans";
   font-size: $basic-font-size;
   line-height: $title-big-font-size;
@@ -9,7 +11,7 @@ body {
   color: $black;
   text-transform: uppercase;
   background-color: $white;
-  background-position: top-center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 

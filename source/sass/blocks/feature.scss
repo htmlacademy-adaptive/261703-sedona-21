@@ -1,12 +1,12 @@
 @import "../variables.scss";
 
-.interest__title {
+.feature-item__title {
   font-weight: bold;
-  font-size: $title-big-font-size;
+  font-size: $title-font-size;
   line-height: 26px;
 }
 
-.interest__text {
+.feature-item__description {
   font-size: $basic-font-size;
-  line-height: 24px;
+  line-height: 21px;
 }

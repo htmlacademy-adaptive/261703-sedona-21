@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.feature-item__title {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.feature-item__description {
+  font-size: $basic-font-size;
+  line-height: 21px;
+}

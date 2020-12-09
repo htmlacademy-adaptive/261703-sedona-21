@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.interest__title {
+  font-weight: bold;
+  font-size: $title-big-font-size;
+  line-height: 26px;
+}
+
+.interest__text {
+  font-size: $basic-font-size;
+  line-height: 24px;
+}

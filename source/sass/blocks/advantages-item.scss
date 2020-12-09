@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+.advantages-item__title {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.advantages-item__number {
+  font-size: $basic-font-size;
+  line-height: 26px;
+}
+
+.advantages-item__text {
+  font-size: $basic-font-size;
+  line-height: 26px;
+}

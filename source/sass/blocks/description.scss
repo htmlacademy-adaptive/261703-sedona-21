@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.description__slogan {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.description__text {
+  font-size: $basic-font-size;
+  line-height: 21px;
+}

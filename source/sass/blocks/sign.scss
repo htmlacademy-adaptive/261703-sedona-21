@@ -1,0 +1,27 @@
+@import "../variables.scss";
+
+.sign__title {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.sign__item {
+  font-size: $basic-font-size;
+  line-height: 26px;
+}
+
+.sign__name {
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.sign__family {
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.sign__middle {
+  font-size: $title-font-size;
+  line-height: 26px;
+}

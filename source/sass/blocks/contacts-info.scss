@@ -1,0 +1,17 @@
+@import "../variables.scss";
+
+.contacts-info__title {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.contacts-info__phone {
+  font-size: $basic-font-size;
+  line-height: 26px;
+}
+
+.contacts-info__email {
+  font-size: $basic-font-size;
+  line-height: 26px;
+}

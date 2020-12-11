@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff"); }
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Bold"), local("PTSans-Bold"), url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff"); }
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.header__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.advantages-item__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.advantages-item__number {
+  font-size: 14px;
+  line-height: 26px; }
+
+.advantages-item__text {
+  font-size: 14px;
+  line-height: 26px; }
+
+.interest__title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px; }
+
+.interest__text {
+  font-size: 14px;
+  line-height: 24px; }
+
+.footer__link {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px; }
+
+.social__link {
+  background-color: blue; }
+
+.copyright__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.description__slogan {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.description__text {
+  font-size: 14px;
+  line-height: 21px; }
+
+.feature-item__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.feature-item__description {
+  font-size: 14px;
+  line-height: 21px; }
+
+.header__logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.main-nav__wrapper {
+  width: 100%;
+  background-color: #ffffff; }
+
+.reviews__slogan {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.reviews__text {
+  font-size: 14px;
+  line-height: 24px; }
+
+.sign__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.sign__item {
+  font-size: 14px;
+  line-height: 26px; }
+
+.sign__name {
+  font-size: 18px;
+  line-height: 26px; }
+
+.sign__family {
+  font-size: 18px;
+  line-height: 26px; }
+
+.sign__middle {
+  font-size: 18px;
+  line-height: 26px; }
+
+.contacts-info__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.contacts-info__phone {
+  font-size: 14px;
+  line-height: 26px; }
+
+.contacts-info__email {
+  font-size: 14px;
+  line-height: 26px; }
+
+.filter-impression__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.filter-attractions__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.emotion-form__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.failure-modal-window-hidden__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.failure-modal-window-hidden__text {
+  font-size: 14px;
+  line-height: 24px; }
+
+.success-modal-window-hidden__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px; }
+
+.success-modal-window-hidden__text {
+  font-size: 14px;
+  line-height: 24px; }
+
+/*# sourceMappingURL=style.css.map */

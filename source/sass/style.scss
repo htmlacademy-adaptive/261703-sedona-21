@@ -1,15 +1,20 @@
 @import "font-face.scss";
 @import "global.scss";
-@import "button.scss";
-
 @import "blocks/page-main.scss";
-@import "blocks/advantages-item";
+@import "blocks/advantages-item.scss";
 @import "blocks/interest.scss";
-@import "blocks/footer.scss";
 @import "blocks/contacts.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
 @import "blocks/visually-hidden.scss";
 @import "blocks/description.scss";
 @import "blocks/feature-item";
-@import "blocks/page-header";
+@import "blocks/page-header.scss";
+@import "blocks/reviews.scss";
+@import "blocks/sign.scss";
+@import "blocks/contacts-info.scss";
+@import "blocks/filter-impression.scss";
+@import "blocks/filter-attractions.scss";
+@import "blocks/emotion-form.scss";
+@import "blocks/failure-modal.scss";
+@import "blocks/success-modal.scss";

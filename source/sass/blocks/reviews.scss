@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.reviews__slogan {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.reviews__text {
+  font-size: $basic-font-size;
+  line-height: 24px;
+}

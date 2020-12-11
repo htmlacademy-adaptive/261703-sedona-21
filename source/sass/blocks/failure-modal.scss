@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.failure-modal-window-hidden__title {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 26px;
+}
+
+.failure-modal-window-hidden__text {
+  font-size: $basic-font-size;
+  line-height: 24px;
+}

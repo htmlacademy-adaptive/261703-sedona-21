@@ -1,0 +1,12 @@
+.footer__wrapper {
+  @media (min-width: $tablet-width) {
+    margin: auto;
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}

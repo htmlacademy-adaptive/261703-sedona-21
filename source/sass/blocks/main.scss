@@ -1,0 +1,57 @@
+@import "../variables.scss";
+
+.main-nav__wrapper {
+  width: 100%;
+  background-color: $light-blue;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__list a {
+  color: $black;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__wrapper {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  @media (width: $desktop-width) {
+    .main-nav__wrapper {
+      width: 1200px;
+    }
+  }
+
+  &__toggle {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    &__item {
+      width: 20%;
+      text-align: center;
+    }
+  }
+}
+
+.main-nav__toggle {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

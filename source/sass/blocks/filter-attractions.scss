@@ -5,3 +5,11 @@
   font-size: $title-font-size;
   line-height: 26px;
 }
+
+.filter-attractions {
+  @media (min-width: $desktop-width) {
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

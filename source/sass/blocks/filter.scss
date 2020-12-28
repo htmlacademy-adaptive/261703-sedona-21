@@ -1,14 +1,14 @@
 @import "../variables.scss";
 
-.filter-impression__title {
+.filter__title {
   font-weight: bold;
   font-size: $title-font-size;
   line-height: 26px;
 }
 
-.filter-impression {
-  @media (min-width: $tablet-width) {
-    width: 768px;
+.filter {
+  @media (max-width: $mobile-width) {
+    width: 767px;
     display: none;
   }
 }

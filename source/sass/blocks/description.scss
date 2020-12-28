@@ -4,9 +4,28 @@
   font-weight: bold;
   font-size: $title-font-size;
   line-height: 26px;
+  margin: 0;
+  text-align: center;
 }
 
 .description__text {
   font-size: $basic-font-size;
   line-height: 21px;
+  margin: 0;
+  text-align: center;
+}
+
+.description {
+  background-color: $light-blue;
+}
+
+.description__wrapper {
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: auto;
+    width: 1200px;
+  }
 }

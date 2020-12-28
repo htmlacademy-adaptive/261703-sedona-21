@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: $light-blue;
+
+  &__logo {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-header__logo-box {
+    height: 56px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__logo {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 1;
+  }
+}

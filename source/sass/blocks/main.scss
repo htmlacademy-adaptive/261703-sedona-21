@@ -55,3 +55,45 @@
     display: none;
   }
 }
+
+.page-form-main {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "a a a a" "b b b b" "e e c c" "d d d d" "f f f f" "g g g g";
+  }
+}
+
+.welcome {
+  grid-area: a;
+}
+
+.reviews {
+  grid-area: b;
+}
+
+.sign__form {
+  grid-area: c;
+}
+
+.contacts-info {
+  grid-area: d;
+}
+
+.filter-impression {
+  grid-area: e;
+}
+
+.filter-attractions {
+  grid-area: f;
+}
+
+.emotion-form {
+  grid-area: g;
+}
+
+.emotion-form__field {
+  @media (max-width: $mobile-width) {
+    display: none;
+  }
+}

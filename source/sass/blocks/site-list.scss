@@ -1,0 +1,22 @@
+@import "../variables.scss";
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    &__item {
+      width: 20%;
+      display: flex;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-list__item--offset {
+    margin-right: auto;
+  }
+}

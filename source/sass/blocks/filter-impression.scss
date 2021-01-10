@@ -5,10 +5,3 @@
   font-size: $title-font-size;
   line-height: 26px;
 }
-
-.filter-impression {
-  @media (min-width: $tablet-width) {
-    width: 768px;
-    display: none;
-  }
-}

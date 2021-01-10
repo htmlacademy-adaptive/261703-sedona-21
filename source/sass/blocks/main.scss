@@ -55,3 +55,37 @@
     display: none;
   }
 }
+
+.page-form {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "e e c c" "d d d d" "f f f f" "g g g g";
+  }
+}
+
+.sign {
+  grid-area: c;
+}
+
+.contacts-info {
+  grid-area: d;
+}
+
+.filter-impression {
+  grid-area: e;
+}
+
+.filter-attractions {
+  grid-area: f;
+}
+
+.emotion-form {
+  grid-area: g;
+}
+
+.emotion-form__field {
+  @media (max-width: $mobile-width) {
+    display: none;
+  }
+}

@@ -23,3 +23,32 @@
   font-size: $basic-font-size;
   line-height: 24px;
 }
+
+.photo__container {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "a a" "b c" "d .";
+  }
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "a a a" "b c d";
+  }
+}
+
+.photo1 {
+  grid-area: a;
+}
+
+.photo2 {
+  grid-area: b;
+}
+
+.photo3 {
+  grid-area: c;
+}
+
+.photo4 {
+  grid-area: d;
+}

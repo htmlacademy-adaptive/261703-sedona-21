@@ -2,10 +2,12 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Седона</title>
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-body">
+<div class="wrapper">
 <header class="header">
   <a class="header__logo">
     <img src="img/logo.png" width="102" height="84" alt="Логотип">
@@ -19,7 +21,7 @@
         <li class="site-list__item">
           <a href="home.html">Главная</a>
         </li>
-        <li class="site-list__item">
+        <li class="site-list__item site-list__item--offset">
           <a href="blank.html">Фото и видео</a>
         </li>
         <li class="site-list__item">
@@ -42,30 +44,30 @@
         <p class="photo__subtitle">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть
           о политике и экономике.</p>
       </div>
-      <div class="photo__container ">
-        <div class="photo__block">
+      <div class="photo__container">
+        <div class="photo__block photo1">
           <img src="img/photo1.jpg" width="280" height="280" alt="Народные просторы">
-          <h4 class="photo__text">Народные просторы</h4>
-          <p class="photo__author">Автор фото: Борис</p>
-          <span class="photo__like">1350</span>
+          <h4 class="photo1__text">Народные просторы</h4>
+          <p class="photo1__author">Автор фото: Борис</p>
+          <span class="photo1__like">1350</span>
         </div>
-        <div class="photo__block">
+        <div class="photo__block photo2">
           <img src="img/photo2.jpg" width="280" height="280" alt="Местная растительность">
-          <h4 class="photo__text">Местная растительность</h4>
-          <p class="photo__author">Автор фото: Сергей</p>
-          <span class="photo__like">143</span>
+          <h4 class="photo2__text">Местная растительность</h4>
+          <p class="photo2__author">Автор фото: Сергей</p>
+          <span class="photo2__like">143</span>
         </div>
-        <div class="photo__block">
+        <div class="photo__block photo3">
           <img src="img/photo3.jpg" width="280" height="280" alt="Дорога на север">
-          <h4 class="photo__text">Дорога на север</h4>
-          <p class="photo__author">Автор фото: Петр</p>
-          <span class="photo__like">96</span>
+          <h4 class="photo3__text">Дорога на север</h4>
+          <p class="photo3__author">Автор фото: Петр</p>
+          <span class="photo3__like">96</span>
         </div>
-        <div class="photo__block">
+        <div class="photo__block photo4">
           <img src="img/photo4.jpg" width="280" height="280" alt="Мост дьявола">
-          <h4 class="photo__text">Мост дьявола</h4>
-          <p class="photo__author">Автор фото: Антон</p>
-          <span class="photo__like">254</span>
+          <h4 class="photo4__text">Мост дьявола</h4>
+          <p class="photo4__author">Автор фото: Антон</p>
+          <span class="photo4__like">254</span>
         </div>
       </div>
     </div>
@@ -114,5 +116,6 @@
     </div>
   </div>
 </footer>
+</div>
 </body>
 </html>
